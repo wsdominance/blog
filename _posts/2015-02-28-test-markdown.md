@@ -1,18 +1,20 @@
 ---
 layout: post
-title: Test markdown
-subtitle: Each post also has a subtitle
+title: 마크다운 연습 겸 포스팅 연습
+subtitle: 
 categories: markdown
 tags: [test]
 ---
 
-You can write regular [markdown](https://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+링크는 대괄호로 단어를 묶고 이어서 소괄호로 링크주소
+예시[https://naver.com]
 
-**Here is some bold text**
+볼드체는 **양옆에 별을 두개 넣기**
 
-## Here is a secondary heading
+## secondary heading은 앞에 해시태그를 두개 넣기
 
-Here's a useless table:
+테이블을 만들 때는 | 로 구분하면 알아서 됨
+:-----로 된 행을 넣어서 머리와 구분
 
 | Number | Next number | Previous number |
 | :------ |:--- | :--- |
@@ -22,7 +24,7 @@ Here's a useless table:
 | Two | Three | One |
 
 
-How about a yummy crepe?
+사진은 링크를 넣을때 앞에 물음표를 넣으면 된다
 
 ![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
 
@@ -30,7 +32,7 @@ It can also be centered!
 
 ![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .center-block :}
 
-Here's a code chunk:
+코드청크를 넣을 때는 코드 윗줄 아랫줄에 ~~~을 넣으면 된다
 
 ~~~
 var foo = function(x) {
