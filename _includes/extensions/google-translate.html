@@ -15,7 +15,7 @@
       <li>
         <a href="#" class="lang-select" data-lang="{{ item.lang }}">
           {% if item.img %}
-          <img src="{{ item.img }}" title="{{ item.text }}">
+          <img src="{{ item.img | relative_url}}" title="{{ item.text }}">
           {% else %}
             {{ item.text }}
           {% endif %}
