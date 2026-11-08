@@ -11,6 +11,8 @@ Some of you know that we occasionally play for weddings. As you can imagine, we 
 
 ![](//www.youtube.com/watch?v=Ptk_1Dc2iPY)
 
+{% include youtube.html id="Ptk_1Dc2iPY" %}
+
 ## GUCCI HALLUCINATION / THE LINE ANIMATION / GUCCI
 BACKGROUND /
 

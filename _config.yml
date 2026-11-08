@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: WOOSUNG
+title: WOOSUNG'g Blog
 email: wsdominance7@gmail.com
 author: WOOSUNG
 
@@ -43,9 +43,9 @@ author: WOOSUNG
 copyright: "Copyright © 2026 WOOSUNG"
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  안녕하세요. 우성입니다. 이건 제 블로그이고요. 만나서 반갑습니다. 밥은 드셨나요? 저는 아마 먹었을 것입니다. 감사합니다.
+  Hello, I'm Woosung. This is my blog. Nice to meet you. Have you eaten? I probably have eaten. Thank you.
+  こんにちは。ウソンです。これは私のブログです。はじめましてどうぞよろしくお願いします。ご飯は食べましたか？私はおそらく食べたでしょう。ありがとうございます。
 
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://wsdominance.github.io" # the base hostname & protocol for your site, e.g. https://example.com
@@ -111,10 +111,8 @@ translate_langs:
 # greatgold: #f2cb05
 # greenblue: #389092
 #
-# brand_color: orangered
-#
 # Custom color as below:
-# brand_color: "#1a8e42"
+brand_color: "#4bd641"
 
 # Night/Dark mode
 # Default mode is "auto", "auto" is for auto nightshift
@@ -127,7 +125,7 @@ translate_langs:
 # it will be always kept on every visit (i.e. no matter
 # the browser is closed or not)
 #
-# night_mode: "auto"
+night_mode: "manual"
 
 # Code badge setting
 # You can enable or disable the code badge and so on
@@ -147,11 +145,11 @@ header_pages:
   - tags.html
 
 # Page default value
-# defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
-#     banner: "Your image url"
+defaults:
+  home:
+    heading: "우성의 블로그"
+    subheading: "우성의 블로그에 오신 것을 환영합니다. 이 블로그는 다양한 주제에 대한 글을 공유하는 공간입니다."
+    banner: "default"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
