@@ -6,6 +6,8 @@ categories: TWICE
 tags: [TWICE, Study]
 ---
 
+TWICE의 Music Video를 모아봤습니다. Since 2015.10.20
+
 ## OOH-AHH하게
 
 {% include youtube.html id="0rtV5esQT6I" %}

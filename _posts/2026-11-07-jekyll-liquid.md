@@ -6,6 +6,8 @@ categories: Markdown
 tags: [Jekyll, Study]
 ---
 
+jekyll liquid를 이용해 jekyll에서 더욱 유용한 build를 해보세요! 앞으로 추가해 나갈 예정입니다.
+
 ## 실행 방지 raw
 
 liquid 코드를 그대로 보여주려면 

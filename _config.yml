@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: WOOSUNG'g Blog
+title: WOOSUNG
 email: wsdominance7@gmail.com
 author: WOOSUNG
 
@@ -147,7 +147,7 @@ header_pages:
 # Page default value
 defaults:
   home:
-    heading: "우성의 블로그"
+    heading: "우성"
     subheading: "우성의 블로그에 오신 것을 환영합니다. 이 블로그는 다양한 주제에 대한 글을 공유하는 공간입니다."
     banner: "default"
 
